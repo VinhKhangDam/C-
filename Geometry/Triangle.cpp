@@ -1,5 +1,5 @@
 #include "Geometry.cpp"
-
+#include <math.h>
 class Triangle : public Geometry
 {
 private:
