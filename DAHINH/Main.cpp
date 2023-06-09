@@ -175,7 +175,7 @@ int main()
                 cin.ignore();
                 cout << "Nhap ho ten can tim: ";
                 getline(cin, ht);
-                tr.TimSVtheoMSSV(ht);
+                tr.TimSVtheoTen(ht);
             }
             else
                 cout << "Chua nhap thong tin\n";
@@ -187,7 +187,7 @@ int main()
                 cin.ignore();
                 cout << "Nhap khoa can tim: ";
                 getline(cin, kh);
-                tr.TimSVtheoMSSV(kh);
+                tr.TimSVtheoKhoa(kh);
             }
             else
                 cout << "Chua nhap thong tin\n";
