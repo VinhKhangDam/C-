@@ -1,9 +1,7 @@
 #include "TruongDH.h"
 #include <string>
-#include <stdlib.h>
 int main()
 {
-    system("cls");
     TruongDH tr;
     int chon;
     do
