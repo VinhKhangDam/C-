@@ -78,9 +78,11 @@ istream& operator >> (istream& in, HCNhat& hcn){
 	hcn.Nhap();
 	while (!hcn.KiemTraHopLe()) {
 		cout << "Khong hop le! Vui long nhap lai!\n";
-		cin >> hcn;
+		in >> hcn;
 	}
+	return in;
 }
 ostream& operator << (ostream& out, const HCNhat& hcn){
 	hcn.Xuat();
+	return out;
 }
